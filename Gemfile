@@ -13,7 +13,7 @@ gem 'google-api-client', '<0.9'
 
 # Rack middleware
 gem 'rack-accept', '~> 0.4'
-gem 'rack-post-body-to-params', github: "palexander/rack-post-body-to-params", branch: "multipart_support" # github dependency can be removed when https://github.com/niko/rack-post-body-to-params/pull/6 is merged and released
+gem 'rack-post-body-to-params', git: "https://github.com/palexander/rack-post-body-to-params.git", branch: "multipart_support" # github dependency can be removed when https://github.com/niko/rack-post-body-to-params/pull/6 is merged and released
 gem 'rack-cache', '~> 1.0'
 gem 'redis-rack-cache', '~> 1.0'
 gem 'rack-timeout'
