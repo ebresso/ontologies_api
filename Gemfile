@@ -70,5 +70,5 @@ gem 'ncbo_cron', github: 'sifrproject/ncbo_cron', branch: 'lirmm'
 gem 'ncbo_ontology_recommender', git: 'https://github.com/ncbo/ncbo_ontology_recommender.git', branch: 'master'
 
 # Not versioned
-gem 'ncbo_resolver', github: 'ncbo/ncbo_resolver'
-gem 'ncbo_resource_index', github: 'ncbo/resource_index'
+gem 'ncbo_resolver', git: 'https://github.com/ncbo/ncbo_resolver.git'
+gem 'ncbo_resource_index', git: 'https://github.com/ncbo/resource_index.git'
