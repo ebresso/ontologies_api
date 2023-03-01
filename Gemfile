@@ -62,11 +62,11 @@ gem 'capistrano-rbenv', '~> 2.0.2', :require => false, :group => :development
 
 # NCBO gems (can be from a local dev path or from rubygems/git)
 # Example: bundle config local.ontologies_linked_data ~/path_to/ontologies_linked_data/
-gem 'goo', github: 'sifrproject/goo', branch: 'lirmm'
+gem 'goo', git: 'https://github.com/sifrproject/goo.git', branch: 'lirmm'
 gem 'sparql-client', git: 'https://github.com/ncbo/sparql-client.git', branch: 'master'
-gem 'ontologies_linked_data', github: 'sifrproject/ontologies_linked_data', branch: 'lirmm'
-gem 'ncbo_annotator', github: 'sifrproject/ncbo_annotator', branch: 'lirmm'
-gem 'ncbo_cron', github: 'sifrproject/ncbo_cron', branch: 'lirmm'
+gem 'ontologies_linked_data', git: 'https://github.com/sifrproject/ontologies_linked_data.git', branch: 'lirmm'
+gem 'ncbo_annotator', git: 'https://github.com/sifrproject/ncbo_annotator.git', branch: 'lirmm'
+gem 'ncbo_cron', git: 'https://github.com/sifrproject/ncbo_cron.git', branch: 'lirmm'
 gem 'ncbo_ontology_recommender', git: 'https://github.com/ncbo/ncbo_ontology_recommender.git', branch: 'master'
 
 # Not versioned
